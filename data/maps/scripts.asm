@@ -486,6 +486,7 @@ SECTION "Map Scripts 25", ROMX
 INCLUDE "maps/SilverCaveOutside.asm"
 INCLUDE "maps/Route10North.asm"
 INCLUDE "maps/Route42.asm"
+INCLUDE "maps/Route42GoldenrodGate.asm"
 INCLUDE "maps/Route43.asm"
 INCLUDE "maps/VioletFalknersHouse.asm"
 INCLUDE "maps/VioletCutHouse.asm"

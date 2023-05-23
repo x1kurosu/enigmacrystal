@@ -1,6 +1,6 @@
 	db PIDGEOT ; 018
 
-	db  83,  80,  75,  91,  70,  70
+	db  83,  70,  75,  101,  96,  64
 	;   hp  atk  def  spd  sat  sdf
 
 	db BIRD_TYPE, FLYING ; type

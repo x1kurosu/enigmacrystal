@@ -36,7 +36,7 @@ TrainerGroups:
 	dw GruntMGroup
 	dw GentlemanGroup
 	dw SkierGroup
-	dw TeacherGroup
+	dw TeacherFGroup
 	dw SabrinaGroup
 	dw BugCatcherGroup
 	dw FisherGroup

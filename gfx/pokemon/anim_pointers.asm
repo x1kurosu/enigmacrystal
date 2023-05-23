@@ -149,8 +149,6 @@ AnimationPointers:
 	dw DratiniAnimation
 	dw DragonairAnimation
 	dw DragoniteAnimation
-	dw MewtwoAnimation
-	dw MewAnimation
 	dw ChikoritaAnimation
 	dw BayleefAnimation
 	dw MeganiumAnimation
@@ -177,6 +175,7 @@ AnimationPointers:
 	dw TogepiAnimation
 	dw TogeticAnimation
 	dw NatuAnimation
+	dw QatuAnimation
 	dw XatuAnimation
 	dw MareepAnimation
 	dw FlaaffyAnimation
@@ -200,6 +199,8 @@ AnimationPointers:
 	dw MurkrowAnimation
 	dw SlowkingAnimation
 	dw MisdreavusAnimation
+	dw CurstrawAnimation
+	dw PangshiAnimation
 	dw UnownAnimation
 	dw WobbuffetAnimation
 	dw GirafarigAnimation
@@ -212,6 +213,7 @@ AnimationPointers:
 	dw GranbullAnimation
 	dw QwilfishAnimation
 	dw ScizorAnimation
+	dw PraxeAnimation
 	dw ShuckleAnimation
 	dw HeracrossAnimation
 	dw SneaselAnimation

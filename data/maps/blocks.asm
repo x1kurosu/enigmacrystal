@@ -227,6 +227,7 @@ Route16Gate_Blocks:
 Route7SaffronGate_Blocks:
 Route17Route18Gate_Blocks:
 Route31VioletGate_Blocks:
+Route42GoldenrodGate_Blocks:
 	INCBIN "maps/EastWestGate.ablk"
 
 VermilionCity_Blocks:

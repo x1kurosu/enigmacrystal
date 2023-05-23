@@ -1,6 +1,6 @@
 	db ARIADOS ; 168
 
-	db  90,  90,  80,  40,  70,  60 ; 430BST
+	db  98,  92,  81,  40,  60,  71 ; 442BST
 	;   hp  atk  def  spd  sat  sdf
 
 	db BUG, DARK ; type

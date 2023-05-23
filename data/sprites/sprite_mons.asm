@@ -41,4 +41,5 @@ SpriteMons:
 	db BELLSPROUT
 	db PERSIAN
 	db PIDGEY
+	db MILTANK
 	assert_table_length NUM_POKEMON_SPRITES

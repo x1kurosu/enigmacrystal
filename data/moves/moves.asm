@@ -57,7 +57,7 @@ Moves:
 	move TWINEEDLE,    EFFECT_POISON_MULTI_HIT,   25, BUG,           90, 20,  20
 	move PIN_MISSILE,  EFFECT_MULTI_HIT,          14, BUG,           85, 20,   0
 	move LEER,         EFFECT_DEFENSE_DOWN,        0, NORMAL,        90, 30,   0
-	move BITE,         EFFECT_FLINCH_HIT,         60, DARK,          90, 25,  30
+	move BITE,         EFFECT_FLINCH_HIT,         60, NORMAL,        90, 25,  30
 	move GROWL,        EFFECT_ATTACK_DOWN,         0, NORMAL,        90, 40,   0
 	move ROAR,         EFFECT_FORCE_SWITCH,        0, NORMAL,       100, 20,   0
 	move SING,         EFFECT_SLEEP,               0, NORMAL,        65, 15,   0
@@ -154,7 +154,7 @@ Moves:
 	move DREAM_EATER,  EFFECT_DREAM_EATER,       100, PSYCHIC_TYPE, 100, 15,   0
 	move POISON_GAS,   EFFECT_POISON,              0, POISON,        90, 40,   0
 	move BARRAGE,      EFFECT_MULTI_HIT,          15, NORMAL,        85, 20,   0
-	move LEECH_LIFE,   EFFECT_LEECH_HIT,          40, BUG,           90, 30,   0
+	move LEECH_LIFE,   EFFECT_LEECH_HIT,          40, DARK,          90, 30,   0
 	move LOVELY_KISS,  EFFECT_SLEEP,               0, NORMAL,        75, 10,   0
 	move SKY_ATTACK,   EFFECT_SKY_ATTACK,        180, BIRD_TYPE,     95,  5,   0
 	move TRANSFORM,    EFFECT_TRANSFORM,           0, NORMAL,       100, 10,   0

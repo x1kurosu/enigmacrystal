@@ -155,8 +155,6 @@ MonMenuIconPals:
 	icon_pals BLUE,   PURPLE ; DRATINI
 	icon_pals BLUE,   PURPLE ; DRAGONAIR
 	icon_pals RED,    GRAY   ; DRAGONITE
-	icon_pals PURPLE, BROWN  ; MEWTWO
-	icon_pals PINK,   BLUE   ; MEW
 	icon_pals GREEN,  BROWN  ; CHIKORITA
 	icon_pals GREEN,  BROWN  ; BAYLEEF
 	icon_pals GREEN,  GREEN  ; MEGANIUM
@@ -183,6 +181,7 @@ MonMenuIconPals:
 	icon_pals RED,    BLUE   ; TOGEPI
 	icon_pals RED,    BLUE   ; TOGETIC
 	icon_pals TEAL,   TEAL   ; NATU
+	icon_pals TEAL,   GREEN  ; QATU
 	icon_pals TEAL,   GREEN  ; XATU
 	icon_pals BLUE,   PURPLE ; MAREEP
 	icon_pals PINK,   PINK   ; FLAAFFY
@@ -206,6 +205,8 @@ MonMenuIconPals:
 	icon_pals BLUE,   PURPLE ; MURKROW
 	icon_pals PINK,   BLUE   ; SLOWKING
 	icon_pals PURPLE, BROWN  ; MISDREAVUS
+	icon_pals BROWN,  GRAY   ; CURSTRAW
+	icon_pals PINK,   BROWN  ; PANGSHI
 	icon_pals GRAY,   BLUE   ; UNOWN
 	icon_pals BLUE,   PURPLE ; WOBBUFFET
 	icon_pals RED,    BLUE   ; GIRAFARIG
@@ -218,6 +219,7 @@ MonMenuIconPals:
 	icon_pals PURPLE, GRAY   ; GRANBULL
 	icon_pals BLUE,   PURPLE ; QWILFISH
 	icon_pals RED,    GREEN  ; SCIZOR
+	icon_pals BROWN,  RED    ; PRAXE
 	icon_pals RED,    BLUE   ; SHUCKLE
 	icon_pals BLUE,   PURPLE ; HERACROSS
 	icon_pals RED,    PURPLE ; SNEASEL

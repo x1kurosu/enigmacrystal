@@ -20,7 +20,7 @@ Pokered_MonIndices:
 	db RHYHORN
 	db LAPRAS
 	db ARCANINE
-	db MEW
+	db CURSTRAW
 	db GYARADOS
 	db SHELLDER
 	db TENTACOOL
@@ -130,7 +130,7 @@ Pokered_MonIndices:
 	db GOLDUCK
 	db HYPNO
 	db GOLBAT
-	db MEWTWO
+	db QATU
 	db SNORLAX
 	db MAGIKARP
 	db PORYGON2 ; MISSINGNO.
@@ -253,4 +253,6 @@ Pokered_MonIndices:
 	db QWILFISH
 	db WOBBUFFET
 	db WOBBUFFET
+	db PANGSHI
+	db PRAXE
 	assert_table_length NUM_POKEMON + 1

@@ -1,6 +1,6 @@
 	db PIDGEY ; 016
 
-	db  40,  45,  40,  56,  35,  35
+	db  40,  35,  40,  56,  51,  29
 	;   hp  atk  def  spd  sat  sdf
 
 	db BIRD_TYPE, FLYING ; type

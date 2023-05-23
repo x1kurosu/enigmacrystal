@@ -36,6 +36,7 @@ AlphabeticalPokedexOrder:
 	db CROBAT
 	db CROCONAW
 	db CUBONE
+	db CURSTRAW
 	db CYNDAQUIL
 	db DELIBIRD
 	db DEWGONG
@@ -132,8 +133,6 @@ AlphabeticalPokedexOrder:
 	db MEGANIUM
 	db MEOWTH
 	db METAPOD
-	db MEW
-	db MEWTWO
 	db MILTANK
 	db MISDREAVUS
 	db MOLTRES
@@ -154,6 +153,7 @@ AlphabeticalPokedexOrder:
 	db OMANYTE
 	db OMASTAR
 	db ONIX
+	db PANGSHI
 	db PARAS
 	db PARASECT
 	db PERSIAN
@@ -173,9 +173,11 @@ AlphabeticalPokedexOrder:
 	db PONYTA
 	db PORYGON
 	db PORYGON2
+	db PRAXE
 	db PRIMEAPE
 	db PSYDUCK
 	db PUPITAR
+	db QATU
 	db QUAGSIRE
 	db QUILAVA
 	db QWILFISH

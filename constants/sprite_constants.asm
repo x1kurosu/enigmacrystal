@@ -42,7 +42,7 @@
 	const SPRITE_TWIN ; 26
 	const SPRITE_YOUNGSTER ; 27
 	const SPRITE_LASS ; 28
-	const SPRITE_TEACHER ; 29
+	const SPRITE_TEACHER_F ; 29
 	const SPRITE_BEAUTY ; 2a
 	const SPRITE_SUPER_NERD ; 2b
 	const SPRITE_ROCKER ; 2c
@@ -107,6 +107,8 @@
 	const SPRITE_LORELEI ; 67
 	const SPRITE_AGATHA ; 68
 	const SPRITE_TEACHER_M ; 69
+	const SPRITE_LADY ; 6a
+	const SPRITE_ROCK_WALL ; 6b
 DEF NUM_OVERWORLD_SPRITES EQU const_value - 1
 
 ; SpriteMons indexes (see data/sprites/sprite_mons.asm)
@@ -152,6 +154,7 @@ DEF SPRITE_POKEMON EQU const_value
 	const SPRITE_BELLSPROUT ; a5
 	const SPRITE_PERSIAN ; a6
 	const SPRITE_PIDGEY ; a7
+	const SPRITE_MILTANK ; a8
 DEF NUM_POKEMON_SPRITES EQU const_value - SPRITE_POKEMON
 
 ; special GetMonSprite values (see engine/overworld/overworld.asm)

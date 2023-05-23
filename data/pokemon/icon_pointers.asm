@@ -151,8 +151,6 @@ IconPointers:
 	dw DratiniIcon
 	dw DragonairIcon
 	dw DragoniteIcon
-	dw MewtwoIcon
-	dw MewIcon
 	dw ChikoritaIcon
 	dw BayleefIcon
 	dw MeganiumIcon
@@ -179,6 +177,7 @@ IconPointers:
 	dw TogepiIcon
 	dw TogeticIcon
 	dw NatuIcon
+	dw QatuIcon
 	dw XatuIcon
 	dw MareepIcon
 	dw FlaaffyIcon
@@ -202,6 +201,8 @@ IconPointers:
 	dw MurkrowIcon
 	dw SlowkingIcon
 	dw MisdreavusIcon
+	dw CurstrawIcon
+	dw PangshiIcon
 	dw UnownIcon
 	dw WobbuffetIcon
 	dw GirafarigIcon
@@ -214,6 +215,7 @@ IconPointers:
 	dw GranbullIcon
 	dw QwilfishIcon
 	dw ScizorIcon
+	dw PraxeIcon
 	dw ShuckleIcon
 	dw HeracrossIcon
 	dw SneaselIcon
@@ -254,6 +256,5 @@ IconPointers:
 	dw HoOhIcon
 	dw CelebiIcon
 	assert_table_length NUM_POKEMON + 1
-	dw NullIcon ; unused
 	dw EggIcon
-	assert_table_length EGG + 1
+	assert_table_length EGG

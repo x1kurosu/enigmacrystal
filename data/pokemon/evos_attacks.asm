@@ -1729,6 +1729,7 @@ MagmarEvosAttacks:
 	db 0 ; no more level-up moves
 
 PinsirEvosAttacks:
+	db EVOLVE_ITEM, METAL_COAT, PRAXE
 	db 0 ; no more evolutions
 	db 1, VICEGRIP
 	db 7, FOCUS_ENERGY
@@ -2034,31 +2035,6 @@ DragoniteEvosAttacks:
 	db 75, HYPER_BEAM
 	db 0 ; no more level-up moves
 
-MewtwoEvosAttacks:
-	db 0 ; no more evolutions
-	db 1, CONFUSION
-	db 1, DISABLE
-	db 11, BARRIER
-	db 22, SWIFT
-	db 33, PSYCH_UP
-	db 44, FUTURE_SIGHT
-	db 55, MIST
-	db 66, PSYCHIC_M
-	db 77, AMNESIA
-	db 88, RECOVER
-	db 99, SAFEGUARD
-	db 0 ; no more level-up moves
-
-MewEvosAttacks:
-	db 0 ; no more evolutions
-	db 1, POUND
-	db 10, TRANSFORM
-	db 20, MEGA_PUNCH
-	db 30, METRONOME
-	db 40, PSYCHIC_M
-	db 50, ANCIENTPOWER
-	db 0 ; no more level-up moves
-
 ChikoritaEvosAttacks:
 	db EVOLVE_LEVEL, 16, BAYLEEF
 	db 0 ; no more evolutions
@@ -2218,7 +2194,7 @@ FurretEvosAttacks:
 	db 0 ; no more level-up moves
 
 HoothootEvosAttacks:
-	db EVOLVE_LEVEL, 20, NOCTOWL
+	db EVOLVE_LEVEL, 24, NOCTOWL
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
@@ -2247,7 +2223,7 @@ NoctowlEvosAttacks:
 	db 0 ; no more level-up moves
 
 LedybaEvosAttacks:
-	db EVOLVE_LEVEL, 18, LEDIAN
+	db EVOLVE_LEVEL, 20, LEDIAN
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 8, SUPERSONIC
@@ -2405,7 +2381,7 @@ TogeticEvosAttacks:
 	db 0 ; no more level-up moves
 
 NatuEvosAttacks:
-	db EVOLVE_LEVEL, 25, XATU
+	db EVOLVE_LEVEL, 26, QATU
 	db 0 ; no more evolutions
 	db 1, PECK
 	db 1, LEER
@@ -2414,6 +2390,18 @@ NatuEvosAttacks:
 	db 30, FUTURE_SIGHT
 	db 40, CONFUSE_RAY
 	db 50, PSYCHIC_M
+	db 0 ; no more level-up moves
+	
+QatuEvosAttacks:
+	db EVOLVE_ITEM, HEART_STONE, XATU
+	db 0 ; no more evolutions
+	db 1, PECK
+	db 1, LEER
+	db 10, NIGHT_SHADE
+	db 20, TELEPORT
+	db 32, FUTURE_SIGHT
+	db 42, CONFUSE_RAY
+	db 52, PSYCHIC_M
 	db 0 ; no more level-up moves
 
 XatuEvosAttacks:
@@ -2709,6 +2697,26 @@ MisdreavusEvosAttacks:
 	db 36, PAIN_SPLIT
 	db 46, PERISH_SONG
 	db 0 ; no more level-up moves
+	
+CurstrawEvosAttacks:
+	db EVOLVE_LEVEL, 30, PANGSHI
+	db 0 ; no more evolutions
+	db 1, CURSE
+	db 10, SPLASH
+	db 30, FRUSTRATION
+	db 0 ; no more level-up moves
+	
+PangshiEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, CURSE
+	db 10, BITE
+	db 15, LICK
+	db 22, STOMP
+	db 31, LEECH_LIFE
+	db 36, SPITE
+	db 43, CRUNCH
+	db 50, DIZZY_PUNCH
+	db 0 ; no more level-up moves
 
 UnownEvosAttacks:
 	db 0 ; no more evolutions
@@ -2853,6 +2861,18 @@ ScizorEvosAttacks:
 	db 36, SLASH
 	db 42, SWORDS_DANCE
 	db 48, DOUBLE_TEAM
+	db 0 ; no more level-up moves
+	
+PraxeEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, VICEGRIP
+	db 7, FOCUS_ENERGY
+	db 13, BIND
+	db 19, SEISMIC_TOSS
+	db 25, HARDEN
+	db 31, GUILLOTINE
+	db 37, SUBMISSION
+	db 43, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
 ShuckleEvosAttacks:

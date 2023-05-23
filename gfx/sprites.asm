@@ -40,7 +40,7 @@ BugCatcherSpriteGFX::          INCBIN "gfx/sprites/bug_catcher.2bpp"
 TwinSpriteGFX::                INCBIN "gfx/sprites/twin.2bpp"
 YoungsterSpriteGFX::           INCBIN "gfx/sprites/youngster.2bpp"
 LassSpriteGFX::                INCBIN "gfx/sprites/lass.2bpp"
-TeacherSpriteGFX::             INCBIN "gfx/sprites/teacher.2bpp"
+TeacherFSpriteGFX::            INCBIN "gfx/sprites/teacher_f.2bpp"
 BeautySpriteGFX::              INCBIN "gfx/sprites/beauty.2bpp"
 SuperNerdSpriteGFX::           INCBIN "gfx/sprites/super_nerd.2bpp"
 RockerSpriteGFX::              INCBIN "gfx/sprites/rocker.2bpp"
@@ -107,7 +107,10 @@ EnteiSpriteGFX::               INCBIN "gfx/sprites/entei.2bpp"
 RaikouSpriteGFX::              INCBIN "gfx/sprites/raikou.2bpp"
 StandingYoungsterSpriteGFX::   INCBIN "gfx/sprites/standing_youngster.2bpp"
 
+
 SECTION "Sprites 3", ROMX
 
 LoreleiSpriteGFX::			   INCBIN "gfx/sprites/lorelei.2bpp"
 AgathaSpriteGFX::			   INCBIN "gfx/sprites/agatha.2bpp"
+LadySpriteGFX::				   INCBIN "gfx/sprites/lady.2bpp"
+RockWallSpriteGFX::            INCBIN "gfx/sprites/rock_wall.2bpp"

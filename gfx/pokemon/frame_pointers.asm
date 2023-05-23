@@ -149,8 +149,6 @@ FramesPointers:
 	dw DratiniFrames
 	dw DragonairFrames
 	dw DragoniteFrames
-	dw MewtwoFrames
-	dw MewFrames
 	dw ChikoritaFrames
 	dw BayleefFrames
 	dw MeganiumFrames
@@ -177,6 +175,7 @@ FramesPointers:
 	dw TogepiFrames
 	dw TogeticFrames
 	dw NatuFrames
+	dw QatuFrames
 	dw XatuFrames
 	dw MareepFrames
 	dw FlaaffyFrames
@@ -200,6 +199,8 @@ FramesPointers:
 	dw MurkrowFrames
 	dw SlowkingFrames
 	dw MisdreavusFrames
+	dw CurstrawFrames
+	dw PangshiFrames
 	dw UnownFrames
 	dw WobbuffetFrames
 	dw GirafarigFrames
@@ -212,6 +213,7 @@ FramesPointers:
 	dw GranbullFrames
 	dw QwilfishFrames
 	dw ScizorFrames
+	dw PraxeFrames
 	dw ShuckleFrames
 	dw HeracrossFrames
 	dw SneaselFrames

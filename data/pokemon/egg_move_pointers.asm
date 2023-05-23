@@ -149,8 +149,6 @@ EggMovePointers::
 	dw DratiniEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw NoEggMoves
-	dw NoEggMoves
 	dw ChikoritaEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
@@ -178,6 +176,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw NatuEggMoves
 	dw NoEggMoves
+	dw NoEggMoves
 	dw MareepEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
@@ -200,6 +199,8 @@ EggMovePointers::
 	dw MurkrowEggMoves
 	dw NoEggMoves
 	dw MisdreavusEggMoves
+	dw CurstrawEggMoves
+	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw GirafarigEggMoves
@@ -211,6 +212,7 @@ EggMovePointers::
 	dw SnubbullEggMoves
 	dw NoEggMoves
 	dw QwilfishEggMoves
+	dw NoEggMoves
 	dw NoEggMoves
 	dw ShuckleEggMoves
 	dw HeracrossEggMoves

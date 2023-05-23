@@ -334,7 +334,7 @@ TilesetJohtoOceanMeta::
 INCBIN "data/tilesets/johto_ocean_metatiles.bin"
 
 TilesetJohtoOceanColl::
-INCBIN "data/tilesets/johto_ocean_collision.asm"
+INCLUDE "data/tilesets/johto_ocean_collision.asm"
 
 TilesetJohtoOceanAttr::
 INCBIN "data/tilesets/johto_ocean_attributes.bin"

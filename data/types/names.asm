@@ -35,7 +35,7 @@ TypeNames:
 	assert_table_length TYPES_END
 
 Normal:    db "NORMAL@"
-BirdType:      db "BIRD@"
+BirdType:  db "BIRD@"
 Fighting:  db "FIGHTING@"
 Flying:    db "FLYING@"
 Poison:    db "POISON@"

@@ -301,10 +301,6 @@ PokemonPicPointers::
 	dba_pic DragonairBackpic
 	dba_pic DragoniteFrontpic
 	dba_pic DragoniteBackpic
-	dba_pic MewtwoFrontpic
-	dba_pic MewtwoBackpic
-	dba_pic MewFrontpic
-	dba_pic MewBackpic
 	dba_pic ChikoritaFrontpic
 	dba_pic ChikoritaBackpic
 	dba_pic BayleefFrontpic
@@ -357,6 +353,8 @@ PokemonPicPointers::
 	dba_pic TogeticBackpic
 	dba_pic NatuFrontpic
 	dba_pic NatuBackpic
+	dba_pic QatuFrontpic
+	dba_pic QatuBackpic
 	dba_pic XatuFrontpic
 	dba_pic XatuBackpic
 	dba_pic MareepFrontpic
@@ -403,6 +401,10 @@ PokemonPicPointers::
 	dba_pic SlowkingBackpic
 	dba_pic MisdreavusFrontpic
 	dba_pic MisdreavusBackpic
+	dba_pic CurstrawFrontpic
+	dba_pic CurstrawBackpic
+	dba_pic PangshiFrontpic
+	dba_pic PangshiBackpic
 
 	; Unown pics have their own table. See UnownPicPointers
 	dbw -1, -1
@@ -430,6 +432,8 @@ PokemonPicPointers::
 	dba_pic QwilfishBackpic
 	dba_pic ScizorFrontpic
 	dba_pic ScizorBackpic
+	dba_pic PraxeFrontpic
+	dba_pic PraxeBackpic
 	dba_pic ShuckleFrontpic
 	dba_pic ShuckleBackpic
 	dba_pic HeracrossFrontpic
@@ -509,8 +513,6 @@ PokemonPicPointers::
 	dba_pic CelebiFrontpic
 	dba_pic CelebiBackpic
 	assert_table_length NUM_POKEMON
-	dbw -1, -1 ; unused
-	dbw -1, -1 ; unused
 	dba_pic EggPic
 	dbw -1, -1 ; unused
-	assert_table_length EGG
+	assert_table_length EGG - 1

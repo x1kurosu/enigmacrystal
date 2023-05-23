@@ -613,6 +613,9 @@ MisdreavusEggMoves:
 	db SCREECH
 	db DESTINY_BOND
 	db -1 ; end
+	
+CurstrawEggMoves:
+	db -1 ; end
 
 GirafarigEggMoves:
 	db TAKE_DOWN

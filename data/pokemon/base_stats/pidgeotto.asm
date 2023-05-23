@@ -1,6 +1,6 @@
 	db PIDGEOTTO ; 017
 
-	db  63,  60,  55,  71,  50,  50
+	db  63,  50,  55,  71,  76,  44
 	;   hp  atk  def  spd  sat  sdf
 
 	db BIRD_TYPE, FLYING ; type

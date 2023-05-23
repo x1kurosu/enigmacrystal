@@ -149,8 +149,6 @@ PokemonNames::
 	db "DRATINI@@@"
 	db "DRAGONAIR@"
 	db "DRAGONITE@"
-	db "MEWTWO@@@@"
-	db "MEW@@@@@@@"
 	db "CHIKORITA@"
 	db "BAYLEEF@@@"
 	db "MEGANIUM@@"
@@ -177,6 +175,7 @@ PokemonNames::
 	db "TOGEPI@@@@"
 	db "TOGETIC@@@"
 	db "NATU@@@@@@"
+	db "QATU@@@@@@"
 	db "XATU@@@@@@"
 	db "MAREEP@@@@"
 	db "FLAAFFY@@@"
@@ -200,6 +199,8 @@ PokemonNames::
 	db "MURKROW@@@"
 	db "SLOWKING@@"
 	db "MISDREAVUS"
+	db "CURSTRAW@@"
+	db "PANGSHI@@@"
 	db "UNOWN@@@@@"
 	db "WOBBUFFET@"
 	db "GIRAFARIG@"
@@ -212,6 +213,7 @@ PokemonNames::
 	db "GRANBULL@@"
 	db "QWILFISH@@"
 	db "SCIZOR@@@@"
+	db "PRAXE@@@@@"
 	db "SHUCKLE@@@"
 	db "HERACROSS@"
 	db "SNEASEL@@@"
@@ -252,10 +254,7 @@ PokemonNames::
 	db "HO-OH@@@@@"
 	db "CELEBI@@@@"
 	assert_table_length NUM_POKEMON
-	db "?????@@@@@"
 	db "EGG@@@@@@@"
-	assert_table_length EGG
+	assert_table_length EGG - 1
 	db "?????@@@@@"
-	db "?????@@@@@"
-	db "?????@@@@@"
-	assert_table_length $100
+	assert_table_length $100 - 1
