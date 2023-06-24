@@ -50,4 +50,5 @@ Tilesets::
 	tileset TilesetAerodactylWordRoom
 	tileset TilesetJohtoOcean
 	tileset TilesetSeaCave
+	tileset TilesetJohtoRuins
 	assert_table_length NUM_TILESETS + 1

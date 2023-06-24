@@ -144,6 +144,16 @@ BattleText_TheSandstormRages:
 	text "The SANDSTORM"
 	line "rages."
 	prompt
+	
+BattleText_HailContinuesToFall:
+	text "Hail continues to"
+	line "fall."
+	prompt
+	
+BattleText_SweetScentInTheAir:
+	text "A sweet scent is in"
+	line "the air."
+	prompt
 
 BattleText_TheRainStopped:
 	text "The rain stopped."
@@ -157,6 +167,15 @@ BattleText_TheSunlightFaded:
 BattleText_TheSandstormSubsided:
 	text "The SANDSTORM"
 	line "subsided."
+	prompt
+	
+BattleText_TheHailStopped:
+	text "The hail stopped."
+	prompt
+	
+BattleText_TheSweetScentDissipated:
+	text "The sweet scent dis-"
+	line "sipated."
 	prompt
 
 BattleText_EnemyMonFainted:
@@ -1116,3 +1135,18 @@ BattleText_NoTimeLeftToday: ; unreferenced
 	text "There is no time"
 	line "left today!"
 	done
+	
+ItStartedToHailText:
+	text "It started"
+	line "to hail!"
+	prompt
+	
+PeltedByHailText:
+	text "<USER>"
+	line "is pelted by HAIL!"
+	prompt
+	
+SweetScentText:
+	text "A sweet scent fills"
+	line "the air."
+	prompt

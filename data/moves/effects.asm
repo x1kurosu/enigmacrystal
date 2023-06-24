@@ -9,7 +9,6 @@ NormalHit:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	moveanim
@@ -38,7 +37,6 @@ PoisonHit:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	effectchance
@@ -59,7 +57,6 @@ LeechHit:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	moveanim
@@ -80,7 +77,6 @@ BurnHit:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	effectchance
@@ -101,7 +97,6 @@ FreezeHit:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	effectchance
@@ -122,7 +117,6 @@ ParalyzeHit:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	effectchance
@@ -143,7 +137,6 @@ Selfdestruct:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	selfdestruct
@@ -164,7 +157,6 @@ DreamEater:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	moveanim
@@ -542,7 +534,6 @@ AttackDownHit:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	effectchance
@@ -564,7 +555,6 @@ DefenseDownHit:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	effectchance
@@ -588,7 +578,6 @@ SpeedDownHit:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	effectchance
@@ -610,7 +599,6 @@ SpecialAttackDownHit:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	effectchance
@@ -632,7 +620,6 @@ SpecialDefenseDownHit:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	effectchance
@@ -654,7 +641,6 @@ AccuracyDownHit:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	effectchance
@@ -676,7 +662,6 @@ EvasionDownHit:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	effectchance
@@ -698,7 +683,6 @@ DefenseUpHit:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	effectchance
@@ -721,7 +705,6 @@ AttackUpHit:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	effectchance
@@ -743,7 +726,6 @@ AllUpHit:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	effectchance
@@ -764,7 +746,6 @@ PayDay:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	moveanim
@@ -818,7 +799,6 @@ Rampage:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	clearmissdamage
 	moveanim
@@ -849,7 +829,6 @@ MultiHit:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	clearmissdamage
 	moveanimnosub
@@ -876,7 +855,6 @@ PoisonMultiHit:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	clearmissdamage
 	moveanimnosub
@@ -900,7 +878,6 @@ FlinchHit:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	effectchance
@@ -918,7 +895,6 @@ OHKOHit:
 	checkobedience
 	usedmovetext
 	doturn
-	stab
 	ohko
 	moveanim
 	failuretext
@@ -936,7 +912,6 @@ RecoilHit:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	moveanim
@@ -980,7 +955,6 @@ ConfuseHit:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	effectchance
@@ -1023,7 +997,6 @@ TriAttack:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	moveanim
@@ -1042,7 +1015,6 @@ DoPoison:
 	usedmovetext
 	doturn
 	checkhit
-	stab
 	checksafeguard
 	poison
 	endmove
@@ -1051,7 +1023,6 @@ DoParalyze:
 	checkobedience
 	usedmovetext
 	doturn
-	stab
 	checkhit
 	checksafeguard
 	paralyze
@@ -1066,7 +1037,6 @@ SkyAttack:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	effectchance
@@ -1095,7 +1065,6 @@ HyperBeam:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	moveanim
@@ -1115,7 +1084,6 @@ Rage:
 	critical
 	damagestats
 	damagecalc
-	stab
 	checkhit
 	ragedamage
 	damagevariation
@@ -1177,7 +1145,6 @@ RazorWind:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	moveanim
@@ -1199,7 +1166,6 @@ Fly:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	moveanimnosub
@@ -1221,7 +1187,6 @@ TrapTarget:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	clearmissdamage
 	moveanim
@@ -1256,7 +1221,6 @@ Reversal:
 	usedmovetext
 	doturn
 	constantdamage
-	stab
 	checkhit
 	moveanim
 	failuretext
@@ -1303,7 +1267,6 @@ Snore:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	effectchance
@@ -1378,7 +1341,6 @@ FalseSwipe:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	falseswipe
 	checkhit
@@ -1410,7 +1372,6 @@ TripleKick:
 	damagestats
 	damagecalc
 	triplekick
-	stab
 	damagevariation
 	clearmissdamage
 	moveanimnosub
@@ -1434,7 +1395,6 @@ Thief:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	effectchance
@@ -1470,7 +1430,6 @@ FlameWheel:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	effectchance
@@ -1543,7 +1502,6 @@ Rollout:
 	critical
 	damagestats
 	damagecalc
-	stab
 	checkhit
 	rolloutpower
 	damagevariation
@@ -1582,7 +1540,6 @@ FuryCutter:
 	critical
 	damagestats
 	damagecalc
-	stab
 	checkhit
 	furycutter
 	damagevariation
@@ -1612,7 +1569,6 @@ Return:
 	damagestats
 	happinesspower
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	moveanim
@@ -1634,7 +1590,6 @@ Present:
 	damagestats
 	present
 	damagecalc
-	stab
 	damagevariation
 	clearmissdamage
 	failuretext
@@ -1654,7 +1609,6 @@ Frustration:
 	damagestats
 	frustrationpower
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	moveanim
@@ -1681,7 +1635,6 @@ SacredFire:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	effectchance
@@ -1704,7 +1657,6 @@ Magnitude:
 	damagestats
 	getmagnitude
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	doubleundergrounddamage
@@ -1732,7 +1684,6 @@ Pursuit:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	pursuit
 	checkhit
@@ -1753,7 +1704,6 @@ RapidSpin:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	moveanim
@@ -1795,7 +1745,6 @@ HiddenPower:
 	critical
 	hiddenpower
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	moveanim
@@ -1868,7 +1817,6 @@ SkullBash:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	moveanim
@@ -1891,7 +1839,6 @@ Twister:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	doubleflyingdamage
 	checkhit
@@ -1913,7 +1860,6 @@ Earthquake:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	doubleundergrounddamage
 	checkhit
@@ -1951,7 +1897,6 @@ Gust:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	doubleflyingdamage
 	checkhit
@@ -1971,7 +1916,6 @@ Stomp:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	doubleminimizedamage
 	checkhit
@@ -1996,7 +1940,6 @@ Solarbeam:
 	critical
 	damagestats
 	damagecalc
-	stab
 	damagevariation
 	checkhit
 	moveanim
@@ -2019,7 +1962,6 @@ Thunder:
 	thunderaccuracy
 	checkhit
 	effectchance
-	stab
 	damagevariation
 	moveanim
 	failuretext
@@ -2076,4 +2018,18 @@ DefenseCurl:
 	raisesub
 	statupmessage
 	statupfailtext
+	endmove
+	
+Hail:
+	checkobedience
+	usedmovetext
+	doturn
+	starthail
+	endmove
+	
+SweetScent:
+	checkobedience
+	usedmovetext
+	doturn
+	startsweetscent
 	endmove

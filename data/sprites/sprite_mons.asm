@@ -42,4 +42,8 @@ SpriteMons:
 	db PERSIAN
 	db PIDGEY
 	db MILTANK
+	db AIPOM
+	db RATTATA
+	db PONYTA
+	db MAREEP
 	assert_table_length NUM_POKEMON_SPRITES

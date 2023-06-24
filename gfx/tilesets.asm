@@ -125,9 +125,6 @@ INCBIN "data/tilesets/train_station_metatiles.bin"
 TilesetTrainStationColl::
 INCLUDE "data/tilesets/train_station_collision.asm"
 
-TilesetForestMeta::
-INCBIN "data/tilesets/forest_metatiles.bin"
-
 
 SECTION "Tileset Data 4", ROMX
 
@@ -216,20 +213,8 @@ INCBIN "data/tilesets/johto_modern_metatiles.bin"
 TilesetJohtoModernColl::
 INCLUDE "data/tilesets/johto_modern_collision.asm"
 
-TilesetTraditionalHouseGFX::
-INCBIN "gfx/tilesets/traditional_house.2bpp.lz"
-
-TilesetTraditionalHouseMeta::
-INCBIN "data/tilesets/traditional_house_metatiles.bin"
-
 
 SECTION "Tileset Data 6", ROMX
-
-TilesetTraditionalHouseColl::
-INCLUDE "data/tilesets/traditional_house_collision.asm"
-
-TilesetForestGFX::
-INCBIN "gfx/tilesets/forest.2bpp.lz"
 
 TilesetChampionsRoomGFX::
 INCBIN "gfx/tilesets/champions_room.2bpp.lz"
@@ -477,3 +462,32 @@ INCLUDE "data/tilesets/sea_cave_collision.asm"
 
 TilesetSeaCaveAttr::
 INCBIN "data/tilesets/sea_cave_attributes.bin"
+
+TilesetTraditionalHouseGFX::
+INCBIN "gfx/tilesets/traditional_house.2bpp.lz"
+
+TilesetTraditionalHouseMeta::
+INCBIN "data/tilesets/traditional_house_metatiles.bin"
+
+TilesetTraditionalHouseColl::
+INCLUDE "data/tilesets/traditional_house_collision.asm"
+
+TilesetForestGFX::
+INCBIN "gfx/tilesets/forest.2bpp.lz"
+
+TilesetForestMeta::
+INCBIN "data/tilesets/forest_metatiles.bin"
+
+SECTION "Tileset Data 13", ROMX
+
+TilesetJohtoRuinsAttr::
+INCBIN "data/tilesets/johto_ruins_attributes.bin"
+
+TilesetJohtoRuinsColl::
+INCLUDE "data/tilesets/johto_ruins_collision.asm"
+
+TilesetJohtoRuinsMeta::
+INCBIN "data/tilesets/johto_ruins_metatiles.bin"
+
+TilesetJohtoRuinsGFX::
+INCBIN "gfx/tilesets/johto_ruins.2bpp.lz"

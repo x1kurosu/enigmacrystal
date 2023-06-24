@@ -45,11 +45,11 @@ OverworldSprites:
 	overworld_sprite CooltrainerFSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite BugCatcherSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite TwinSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
-	overworld_sprite YoungsterSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
-	overworld_sprite LassSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
+	overworld_sprite BoySpriteGFX, 12, WALKING_SPRITE, PAL_OW_PINK
+	overworld_sprite GirlSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite TeacherFSpriteGFX, 12, WALKING_SPRITE, PAL_OW_GREEN
 	overworld_sprite BeautySpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
-	overworld_sprite SuperNerdSpriteGFX, 12, WALKING_SPRITE, PAL_OW_PINK
+	overworld_sprite PsychicSpriteGFX, 12, WALKING_SPRITE, PAL_OW_PINK
 	overworld_sprite RockerSpriteGFX, 12, WALKING_SPRITE, PAL_OW_GREEN
 	overworld_sprite PokefanMSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BROWN
 	overworld_sprite PokefanFSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BROWN
@@ -108,9 +108,12 @@ OverworldSprites:
 	overworld_sprite SuicuneSpriteGFX, 4, STILL_SPRITE, PAL_OW_BLUE
 	overworld_sprite EnteiSpriteGFX, 4, STILL_SPRITE, PAL_OW_RED
 	overworld_sprite RaikouSpriteGFX, 4, STILL_SPRITE, PAL_OW_RED
-	overworld_sprite StandingYoungsterSpriteGFX, 12, STANDING_SPRITE, PAL_OW_BLUE
+	overworld_sprite StandingBoySpriteGFX, 12, STANDING_SPRITE, PAL_OW_BLUE
 	overworld_sprite LoreleiSpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite AgathaSpriteGFX, 12, WALKING_SPRITE, PAL_OW_PINK
 	overworld_sprite LadySpriteGFX, 12, WALKING_SPRITE, PAL_OW_RED
 	overworld_sprite RockWallSpriteGFX, 4, STILL_SPRITE, PAL_OW_ROCK
-	assert_table_length NUM_OVERWORLD_SPRITES - 1
+	overworld_sprite LassSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
+	overworld_sprite YoungsterSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
+	overworld_sprite SuperNerdSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BROWN
+	assert_table_length NUM_OVERWORLD_SPRITES

@@ -1,34 +1,34 @@
-; gray
-	RGB 15, 14, 24
-	RGB 11, 11, 19
-	RGB 07, 07, 12
-	RGB 00, 00, 00
+; gray (purple)
+	RGB 23, 22, 29
+	RGB 14, 16, 24
+	RGB 11, 09, 17
+	RGB 03, 02, 03
 ; red
 	RGB 15, 14, 24
 	RGB 14, 07, 17
 	RGB 13, 00, 08
 	RGB 00, 00, 00
-; green (ice)
-	RGB 21, 20, 25
-	RGB 07, 19, 12
-	RGB 06, 14, 13
-	RGB 00, 00, 00
+; green
+	RGB 27, 31, 28
+	RGB 12, 30, 19
+	RGB 06, 21, 18
+	RGB 00, 05, 00
 ; water
-	RGB 17, 20, 27
-	RGB 08, 14, 26
-	RGB 04, 07, 20
+	RGB 26, 31, 31
+	RGB 18, 28, 31
+	RGB 02, 21, 31
 	RGB 00, 00, 00
 ; yellow
 	RGB 30, 30, 11
 	RGB 16, 14, 18
 	RGB 16, 14, 10
 	RGB 00, 00, 00
-; brown
-	RGB 15, 14, 24
-	RGB 10, 10, 19
-	RGB 06, 06, 12
-	RGB 00, 00, 00
-; roof (snow)
+; brown (blue)
+	RGB 11, 24, 31
+	RGB 02, 16, 26
+	RGB 07, 09, 20
+	RGB 03, 03, 07
+; roof
 	RGB 25, 31, 31
 	RGB 09, 28, 31
 	RGB 16, 11, 31

@@ -370,7 +370,7 @@ JohtoGrassWildMons:
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
 	db 20, NATU
-	db 22, NATU
+	db 22, MANKEY
 	db 18, NATU
 	db 24, NATU
 	db 20, SMEARGLE
@@ -378,7 +378,7 @@ JohtoGrassWildMons:
 	db 22, SMEARGLE
 	; day
 	db 20, NATU
-	db 22, NATU
+	db 22, MANKEY
 	db 18, NATU
 	db 24, NATU
 	db 20, SMEARGLE
@@ -386,7 +386,7 @@ JohtoGrassWildMons:
 	db 22, SMEARGLE
 	; nite
 	db 20, NATU
-	db 22, NATU
+	db 22, MANKEY
 	db 18, NATU
 	db 24, NATU
 	db 22, WOOPER
@@ -449,6 +449,34 @@ JohtoGrassWildMons:
 	db 6, ONIX
 	db 6, ONIX
 	end_grass_wildmons
+	
+	def_grass_wildmons UNION_CAVE_1F_TUNNEL
+	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
+	; morn
+	db 15, GEODUDE
+	db 17, SANDSHREW
+	db 18, EKANS
+	db 15, RATTATA
+	db 16, ZUBAT
+	db 17, ONIX
+	db 17, ONIX
+	; day
+	db 15, GEODUDE
+	db 17, SANDSHREW
+	db 18, EKANS
+	db 15, RATTATA
+	db 16, ZUBAT
+	db 17, ONIX
+	db 17, ONIX
+	; nite
+	db 15, GEODUDE
+	db 17, SANDSHREW
+	db 18, WOOPER
+	db 15, RATTATA
+	db 16, EKANS
+	db 17, ONIX
+	db 17, ONIX
+	end_grass_wildmons
 
 	def_grass_wildmons UNION_CAVE_B1F
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -476,6 +504,34 @@ JohtoGrassWildMons:
 	db 6, RATTATA
 	db 8, RATTATA
 	db 8, RATTATA
+	end_grass_wildmons
+	
+	def_grass_wildmons UNION_CAVE_B1F_TUNNEL
+	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
+	; morn
+	db 15, GEODUDE
+	db 17, SANDSHREW
+	db 18, EKANS
+	db 15, RATTATA
+	db 16, EKANS
+	db 17, ONIX
+	db 17, ONIX
+	; day
+	db 15, GEODUDE
+	db 17, SANDSHREW
+	db 18, EKANS
+	db 15, RATTATA
+	db 16, EKANS
+	db 17, ONIX
+	db 17, ONIX
+	; nite
+	db 15, GEODUDE
+	db 17, SANDSHREW
+	db 18, WOOPER
+	db 15, RATTATA
+	db 16, EKANS
+	db 17, ONIX
+	db 17, ONIX
 	end_grass_wildmons
 
 	def_grass_wildmons UNION_CAVE_B2F
@@ -505,6 +561,62 @@ JohtoGrassWildMons:
 	db 6, ONIX
 	db 8, ONIX
 	
+	def_grass_wildmons UNION_CAVE_B2F_TUNNEL
+	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
+	; morn
+	db 15, SANDSHREW
+	db 17, WOOPER
+	db 18, ONIX
+	db 15, SANDSHREW
+	db 16, ZUBAT
+	db 17, ONIX
+	db 17, ONIX
+	; day
+	db 15, SANDSHREW
+	db 17, WOOPER
+	db 18, ONIX
+	db 15, SANDSHREW
+	db 16, ZUBAT
+	db 17, ONIX
+	db 17, ONIX
+	; nite
+	db 15, SANDSHREW
+	db 17, WOOPER
+	db 18, ONIX
+	db 15, WOOPER
+	db 16, WOOPER
+	db 17, ONIX
+	db 17, ONIX
+	end_grass_wildmons
+	
+	def_grass_wildmons UNION_CAVE_B2F_SNAKE_ROOM
+	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
+	; morn
+	db 16, DUNSPARCE
+	db 17, DUNSPARCE
+	db 18, DUNSPARCE
+	db 16, DUNSPARCE
+	db 16, DUNSPARCE
+	db 17, DUNSPARCE
+	db 17, DUNSPARCE
+	; day
+	db 16, EKANS
+	db 17, DUNSPARCE
+	db 18, DUNSPARCE
+	db 16, DUNSPARCE
+	db 16, DUNSPARCE
+	db 17, EKANS
+	db 17, DUNSPARCE
+	; nite
+	db 16, EKANS
+	db 17, DUNSPARCE
+	db 18, DUNSPARCE
+	db 16, DUNSPARCE
+	db 16, DUNSPARCE
+	db 17, EKANS
+	db 17, DUNSPARCE
+	end_grass_wildmons
+	
 	def_grass_wildmons UNION_CAVE_B3F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
@@ -531,6 +643,90 @@ JohtoGrassWildMons:
 	db 8, WOOPER
 	db 6, SEEL
 	db 8, SQUIRTLE
+	end_grass_wildmons
+	
+	def_grass_wildmons UNION_CAVE_B4F
+	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
+	; morn
+	db 20, SEEL
+	db 21, SEEL
+	db 21, WOOPER
+	db 22, MARILL
+	db 21, WOOPER
+	db 21, SQUIRTLE
+	db 20, SQUIRTLE
+	; day
+	db 20, SEEL
+	db 21, SEEL
+	db 21, WOOPER
+	db 22, MARILL
+	db 21, WOOPER
+	db 21, SQUIRTLE
+	db 20, SQUIRTLE
+	; nite
+	db 20, SEEL
+	db 21, SEEL
+	db 21, WOOPER
+	db 22, MARILL
+	db 21, WOOPER
+	db 21, SQUIRTLE
+	db 20, SQUIRTLE
+	end_grass_wildmons
+	
+	def_grass_wildmons UNION_CAVE_B4F_PATH
+	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
+	; morn
+	db 31, SEEL
+	db 32, QUAGSIRE
+	db 32, DEWGONG
+	db 33, SQUIRTLE
+	db 32, QUAGSIRE
+	db 32, WARTORTLE
+	db 31, WARTORTLE
+	; day
+	db 31, SEEL
+	db 32, QUAGSIRE
+	db 32, DEWGONG
+	db 33, SQUIRTLE
+	db 32, QUAGSIRE
+	db 32, WARTORTLE
+	db 31, WARTORTLE
+	; nite
+	db 31, SEEL
+	db 32, QUAGSIRE
+	db 32, DEWGONG
+	db 33, SQUIRTLE
+	db 32, QUAGSIRE
+	db 32, WARTORTLE
+	db 31, WARTORTLE
+	end_grass_wildmons
+	
+	def_grass_wildmons UNION_CAVE_B5F
+	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
+	; morn
+	db 20, SEEL
+	db 21, SEEL
+	db 21, WOOPER
+	db 22, MARILL
+	db 21, WOOPER
+	db 21, SQUIRTLE
+	db 20, SQUIRTLE
+	; day
+	db 20, SEEL
+	db 21, SEEL
+	db 21, WOOPER
+	db 22, MARILL
+	db 23, AZUMARILL
+	db 21, SQUIRTLE
+	db 20, SQUIRTLE
+	; nite
+	db 20, SEEL
+	db 21, SEEL
+	db 21, WOOPER
+	db 22, MARILL
+	db 23, AZUMARILL
+	db 21, SQUIRTLE
+	db 20, SQUIRTLE
 	end_grass_wildmons
 
 	def_grass_wildmons SLOWPOKE_WELL_B1F
@@ -615,6 +811,90 @@ JohtoGrassWildMons:
 	db 7, HOOTHOOT
 	db 6, PARAS
 	db 6, PARAS
+	end_grass_wildmons
+	
+	def_grass_wildmons SPRING_CAVE_1F
+	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
+	; morn
+	db 17, PHANPY
+	db 18, DIGLETT
+	db 17, PARAS
+	db 18, ODDISH
+	db 17, SANDSHREW
+	db 16, ODDISH
+	db 17, ODDISH
+	; morn
+	db 17, PHANPY
+	db 18, DIGLETT
+	db 17, PARAS
+	db 18, ODDISH
+	db 17, SANDSHREW
+	db 16, ODDISH
+	db 17, ODDISH
+	; morn
+	db 17, SANDSHREW
+	db 18, DIGLETT
+	db 17, PARAS
+	db 18, ODDISH
+	db 17, PHANPY
+	db 16, ODDISH
+	db 17, ODDISH
+	end_grass_wildmons
+	
+	def_grass_wildmons SPRING_CAVE_B1F
+	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
+	; morn
+	db 17, PHANPY
+	db 18, DIGLETT
+	db 17, PARAS
+	db 18, ODDISH
+	db 17, SANDSHREW
+	db 16, ODDISH
+	db 17, ODDISH
+	; morn
+	db 17, PHANPY
+	db 18, DIGLETT
+	db 17, PARAS
+	db 18, ODDISH
+	db 17, SANDSHREW
+	db 16, ODDISH
+	db 17, ODDISH
+	; morn
+	db 17, SANDSHREW
+	db 18, DIGLETT
+	db 17, PARAS
+	db 18, ODDISH
+	db 17, PHANPY
+	db 16, ODDISH
+	db 17, ODDISH
+	end_grass_wildmons
+	
+	def_grass_wildmons SPRING_CAVE_SNAKE_ROOM
+	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
+	; morn
+	db 17, DUNSPARCE
+	db 18, DUNSPARCE
+	db 17, DUNSPARCE
+	db 18, DUNSPARCE
+	db 17, DUNSPARCE
+	db 16, DUNSPARCE
+	db 17, DUNSPARCE
+	; morn
+	db 17, DUNSPARCE
+	db 18, DUNSPARCE
+	db 17, DUNSPARCE
+	db 18, DUNSPARCE
+	db 17, DUNSPARCE
+	db 16, DUNSPARCE
+	db 17, DUNSPARCE
+	; morn
+	db 17, DUNSPARCE
+	db 18, DUNSPARCE
+	db 17, DUNSPARCE
+	db 18, DUNSPARCE
+	db 17, DUNSPARCE
+	db 16, DUNSPARCE
+	db 17, DUNSPARCE
 	end_grass_wildmons
 
 	def_grass_wildmons MOUNT_MORTAR_1F_OUTSIDE
@@ -1567,6 +1847,34 @@ JohtoGrassWildMons:
 	db 18, MEOWTH
 	db 18, MEOWTH
 	db 18, MEOWTH
+	end_grass_wildmons
+	
+	def_grass_wildmons MOOMOO_FARM
+	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
+	; morn
+	db 16, PONYTA
+	db 16, DODUO
+	db 16, DODUO
+	db 16, FLAAFFY
+	db 15, MILTANK
+	db 15, MILTANK
+	db 15, TAUROS
+	; day
+	db 16, PONYTA
+	db 16, DODUO
+	db 16, DODUO
+	db 16, FLAAFFY
+	db 15, MILTANK
+	db 15, MILTANK
+	db 15, TAUROS
+	; nite
+	db 16, PONYTA
+	db 16, HOOTHOOT
+	db 16, MEOWTH
+	db 16, FLAAFFY
+	db 15, MILTANK
+	db 15, MILTANK
+	db 15, HOOTHOOT
 	end_grass_wildmons
 	
 	def_grass_wildmons ROUTE_42

@@ -2007,7 +2007,7 @@ Finally, edit [engine/battle/read_trainer_party.asm](https://github.com/pret/pok
 
 Most trainer classes always use the same sprite and color for their overworld NPCs. There are some exceptions:
 
-- [maps/FastShipCabins_SE_SSE_CaptainsCabin.asm](https://github.com/pret/pokecrystal/blob/master/maps/FastShipCabins_SE_SSE_CaptainsCabin.asm): `TrainerPsychicRodney` should use `SPRITE_YOUNGSTER`, not `SPRITE_SUPER_NERD`
+- [maps/FastShipCabins_SE_SSE_CaptainsCabin.asm](https://github.com/pret/pokecrystal/blob/master/maps/FastShipCabins_SE_SSE_CaptainsCabin.asm): `TrainerPsychicRodney` should use `SPRITE_BOY`, not `SPRITE_PSYCHIC`
 - [maps/LakeOfRage.asm](https://github.com/pret/pokecrystal/blob/master/maps/LakeOfRage.asm): `TrainerFisherAndre` and `TrainerFisherRaymond` should use `PAL_NPC_GREEN`, not `PAL_NPC_BLUE`
 - [maps/Route13.asm](https://github.com/pret/pokecrystal/blob/master/maps/Route13.asm): `TrainerHikerKenny` should use `PAL_NPC_BROWN`, not `PAL_NPC_RED`
 - [maps/Route44.asm](https://github.com/pret/pokecrystal/blob/master/maps/Route44.asm): `TrainerBirdKeeperVance1` should use `PAL_NPC_BLUE`, not `PAL_NPC_GREEN`
@@ -2017,13 +2017,13 @@ Most trainer classes always use the same sprite and color for their overworld NP
 
 Most of the NPCs in [maps/NationalParkBugContest.asm](https://github.com/pret/pokecrystal/blob/master/maps/NationalParkBugContest.asm) and [maps/Route36NationalParkGate.asm](https://github.com/pret/pokecrystal/blob/master/maps/Route36NationalParkGate.asm) are also inconsistent with their trainers from other maps:
 
-- `BugCatchingContestant1AScript` and `BugCatchingContestant1BScript`: `BUG_CATCHER DON` from [maps/Route30.asm](https://github.com/pret/pokecrystal/blob/master/maps/Route30.asm) should use `SPRITE_BUG_CATCHER` and `PAL_NPC_BROWN`, not `SPRITE_YOUNGSTER` and `PAL_NPC_RED`
-- `BugCatchingContestant2AScript` and `BugCatchingContestant2BScript`: `BUG_CATCHER ED` from [maps/Route2.asm](https://github.com/pret/pokecrystal/blob/master/maps/Route2.asm) should use `SPRITE_BUG_CATCHER` and `PAL_NPC_BROWN`, not `SPRITE_YOUNGSTER` and `PAL_NPC_GREEN`
+- `BugCatchingContestant1AScript` and `BugCatchingContestant1BScript`: `BUG_CATCHER DON` from [maps/Route30.asm](https://github.com/pret/pokecrystal/blob/master/maps/Route30.asm) should use `SPRITE_BUG_CATCHER` and `PAL_NPC_BROWN`, not `SPRITE_BOY` and `PAL_NPC_RED`
+- `BugCatchingContestant2AScript` and `BugCatchingContestant2BScript`: `BUG_CATCHER ED` from [maps/Route2.asm](https://github.com/pret/pokecrystal/blob/master/maps/Route2.asm) should use `SPRITE_BUG_CATCHER` and `PAL_NPC_BROWN`, not `SPRITE_BOY` and `PAL_NPC_GREEN`
 - `BugCatchingContestant3AScript` and `BugCatchingContestant3BScript`: `COOLTRAINERM NICK` from [maps/UnionCaveB2F.asm](https://github.com/pret/pokecrystal/blob/master/maps/UnionCaveB2F.asm) should use `SPRITE_COOLTRAINER_M` and `PAL_NPC_RED`, not `SPRITE_ROCKER` and `PAL_NPC_BLUE`
 - `BugCatchingContestant4AScript` and `BugCatchingContestant4BScript`: `POKEFANM WILLIAM` from [maps/NationalPark.asm](https://github.com/pret/pokecrystal/blob/master/maps/NationalPark.asm) should use `PAL_NPC_RED`, not `PAL_NPC_BROWN`
-- `BugCatchingContestant5AScript` and `BugCatchingContestant5BScript`: `BUG_CATCHER BENNY` from [maps/AzaleaGym.asm](https://github.com/pret/pokecrystal/blob/master/maps/AzaleaGym.asm) should use `SPRITE_BUG_CATCHER` and `PAL_NPC_BROWN`, not `SPRITE_YOUNGSTER` and `PAL_NPC_RED`
+- `BugCatchingContestant5AScript` and `BugCatchingContestant5BScript`: `BUG_CATCHER BENNY` from [maps/AzaleaGym.asm](https://github.com/pret/pokecrystal/blob/master/maps/AzaleaGym.asm) should use `SPRITE_BUG_CATCHER` and `PAL_NPC_BROWN`, not `SPRITE_BOY` and `PAL_NPC_RED`
 - `BugCatchingContestant7AScript` and `BugCatchingContestant7BScript`: `PICNICKER CINDY` from [maps/FuchsiaGym.asm](https://github.com/pret/pokecrystal/blob/master/maps/FuchsiaGym.asm) should use `PAL_NPC_GREEN`, not `PAL_NPC_BLUE`
-- `BugCatchingContestant8AScript` and `BugCatchingContestant8BScript`: `BUG_CATCHER JOSH` from [maps/AzaleaGym.asm](https://github.com/pret/pokecrystal/blob/master/maps/AzaleaGym.asm) should use `SPRITE_BUG_CATCHER` and `PAL_NPC_BROWN`, not `SPRITE_YOUNGSTER` and `PAL_NPC_RED`
+- `BugCatchingContestant8AScript` and `BugCatchingContestant8BScript`: `BUG_CATCHER JOSH` from [maps/AzaleaGym.asm](https://github.com/pret/pokecrystal/blob/master/maps/AzaleaGym.asm) should use `SPRITE_BUG_CATCHER` and `PAL_NPC_BROWN`, not `SPRITE_BOY` and `PAL_NPC_RED`
 - `BugCatchingContestant9AScript` and `BugCatchingContestant9BScript`: `YOUNGSTER SAMUEL` from [maps/Route34.asm](https://github.com/pret/pokecrystal/blob/master/maps/Route34.asm) should use `PAL_NPC_BLUE`, not `PAL_NPC_GREEN`
 
 (Note that [maps/Route8.asm](https://github.com/pret/pokecrystal/blob/master/maps/Route8.asm) has three `BIKER`s, `DWAYNE`, `HARRIS`, and `ZEKE`, that use `PAL_NPC_RED`, `PAL_NPC_GREEN`, and `PAL_NPC_BLUE` instead of `PAL_NPC_BROWN`; this is intentional since they're the "Kanto Pokémon Federation".)

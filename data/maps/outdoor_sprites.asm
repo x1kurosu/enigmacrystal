@@ -46,10 +46,10 @@ CinnabarGroupSprites:
 ; Route19, Route20, Route21, CinnabarIsland
 	db SPRITE_LADY
 	db SPRITE_FISHER
-	db SPRITE_YOUNGSTER
+	db SPRITE_BOY
 	db SPRITE_BLUE
 	db SPRITE_GRAMPS
-	db SPRITE_BUG_CATCHER
+	db SPRITE_YOUNGSTER
 	db SPRITE_COOLTRAINER_F
 	db SPRITE_SWIMMER_GIRL
 	db SPRITE_SWIMMER_GUY
@@ -66,9 +66,9 @@ SaffronGroupSprites:
 	db SPRITE_COOLTRAINER_M
 	db SPRITE_SUPER_NERD
 	db SPRITE_COOLTRAINER_F
-	db SPRITE_FISHER
-	db SPRITE_YOUNGSTER
 	db SPRITE_LASS
+	db SPRITE_BOY
+	db SPRITE_GIRL
 	db SPRITE_POKEFAN_M
 	db SPRITE_ROCKET
 	db SPRITE_MISTY
@@ -81,9 +81,9 @@ VermilionGroupSprites:
 ; Route6, Route11, VermilionCity
 	db SPRITE_POKEFAN_M
 	db SPRITE_GRAMPS
-	db SPRITE_YOUNGSTER
+	db SPRITE_BOY
 	db SPRITE_LADY
-	db SPRITE_SUPER_NERD
+	db SPRITE_PSYCHIC
 	; 5 of max 9 walking sprites
 	db SPRITE_BIG_SNORLAX
 	db SPRITE_MACHOP
@@ -96,9 +96,11 @@ CeladonGroupSprites:
 	db SPRITE_FISHER
 	db SPRITE_LADY
 	db SPRITE_GRAMPS
-	db SPRITE_YOUNGSTER
-	db SPRITE_LASS
+	db SPRITE_BOY
+	db SPRITE_GIRL
 	db SPRITE_BIKER
+	db SPRITE_LASS
+	db SPRITE_YOUNGSTER
 	; 6 of max 9 walking sprites
 	db SPRITE_POLIWAG
 	db SPRITE_POKE_BALL
@@ -112,12 +114,13 @@ FuchsiaGroupSprites:
 ; Route13, Route14, Route15, Route18, FuchsiaCity
 	db SPRITE_POKEFAN_M
 	db SPRITE_GRAMPS
-	db SPRITE_YOUNGSTER
+	db SPRITE_BOY
 	db SPRITE_FISHER
 	db SPRITE_TEACHER_F
 	db SPRITE_LADY
-	db SPRITE_SUPER_NERD
+	db SPRITE_PSYCHIC
 	db SPRITE_BIKER
+	db SPRITE_SUPER_NERD
 	; 7 of max 9 walking sprites
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
@@ -135,17 +138,19 @@ CherrygroveGroupSprites:
 ; Route30, Route31, CherrygroveCity
 	db SPRITE_RIVAL
 	db SPRITE_LADY
-	db SPRITE_FISHER
 	db SPRITE_COOLTRAINER_M
-	db SPRITE_YOUNGSTER
-	db SPRITE_MONSTER
+	db SPRITE_BOY
+	db SPRITE_LASS
 	db SPRITE_GRAMPS
 	db SPRITE_BUG_CATCHER
 	db SPRITE_COOLTRAINER_F
+	db SPRITE_YOUNGSTER
 	; max 9 of 9 walking sprites
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
 	db SPRITE_LEDYBA
+	db SPRITE_RATTATA
+	db SPRITE_FISHER
 	db 0 ; end
 
 ; Route37 and EcruteakCity are connected
@@ -154,14 +159,15 @@ VioletGroupSprites:
 EcruteakGroupSprites:
 ; EcruteakCity
 	db SPRITE_FISHER
-	db SPRITE_LASS
-	db SPRITE_OFFICER
+	db SPRITE_GIRL
 	db SPRITE_GRAMPS
-	db SPRITE_YOUNGSTER
+	db SPRITE_BOY
 	db SPRITE_COOLTRAINER_M
 	db SPRITE_BUG_CATCHER
-	db SPRITE_SUPER_NERD
-	; 8 of max 9 walking sprites
+	db SPRITE_PSYCHIC
+	db SPRITE_LASS
+	db SPRITE_YOUNGSTER
+	; 9 of max 9 walking sprites
 	db SPRITE_WEIRD_TREE ; variable sprite: becomes SPRITE_SUDOWOODO and SPRITE_TWIN
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
@@ -170,15 +176,17 @@ EcruteakGroupSprites:
 	db SPRITE_BELLSPROUT
 	db SPRITE_STANTLER
 	db SPRITE_ROCK_WALL
+	db SPRITE_OFFICER
 	db 0 ; end
 
 AzaleaGroupSprites:
 ; Route33, AzaleaTown
 	db SPRITE_GRAMPS
-	db SPRITE_YOUNGSTER
+	db SPRITE_BOY
 	db SPRITE_POKEFAN_M
 	db SPRITE_LADY
 	db SPRITE_AZALEA_ROCKET ; variable sprite: becomes SPRITE_ROCKET and SPRITE_RIVAL
+	db SPRITE_GIRL
 	db SPRITE_LASS
 	; 6 of max 9 walking sprites
 	db SPRITE_FRUIT_TREE
@@ -189,13 +197,15 @@ AzaleaGroupSprites:
 GoldenrodGroupSprites:
 ; Route34, GoldenrodCity
 	db SPRITE_GRAMPS
-	db SPRITE_YOUNGSTER
+	db SPRITE_BOY
 	db SPRITE_OFFICER
 	db SPRITE_POKEFAN_M
 	db SPRITE_COOLTRAINER_F
 	db SPRITE_ROCKET
+	db SPRITE_GIRL
 	db SPRITE_LASS
-	; 7 of max 9 walking sprites
+	db SPRITE_YOUNGSTER
+	; 8 of max 9 walking sprites
 	db SPRITE_DAY_CARE_MON_1
 	db SPRITE_DAY_CARE_MON_2
 	db SPRITE_POKE_BALL
@@ -203,35 +213,42 @@ GoldenrodGroupSprites:
 
 ; OlivineCity and Route40 are connected
 OlivineGroupSprites:
-; Route38, Route39, OlivineCity
+; Route38, Route39, MooMooFarm, OlivineCity
 CianwoodGroupSprites:
 ; Route40, Route41, CianwoodCity, BattleTowerOutside
 	db SPRITE_OLIVINE_RIVAL ; variable sprite: becomes SPRITE_RIVAL and SPRITE_SWIMMER_GUY
 	db SPRITE_POKEFAN_M
-	db SPRITE_LASS
+	db SPRITE_GIRL
 	db SPRITE_BUENA
 	db SPRITE_SWIMMER_GIRL
 	db SPRITE_SAILOR
 	db SPRITE_POKEFAN_F
-	db SPRITE_SUPER_NERD
-	; 8 of max 9 walking sprites
-	db SPRITE_TAUROS
+	db SPRITE_PSYCHIC
+	db SPRITE_LASS
+	; 9 of max 9 walking sprites
+	db SPRITE_MILTANK
 	db SPRITE_FRUIT_TREE
 	db SPRITE_ROCK
-	db SPRITE_STANDING_YOUNGSTER ; non-walking version of SPRITE_YOUNGSTER
+	db SPRITE_STANDING_YOUNGSTER ; non-walking version of SPRITE_BOY
 	db SPRITE_SUICUNE
-	db SPRITE_MILTANK
+	db SPRITE_PONYTA
+	db SPRITE_MAREEP
 	db 0 ; end
 	
 SouthernSeaGroupSprites:
-; Route42, Route43, Route44, Route45
+; Route43, Route44, Route45
+	db SPRITE_SWIMMER_GIRL
+	db SPRITE_SWIMMER_GUY
+	; 2 of max 9 walking sprites
+	db SPRITE_SHELLDER
+	db 0 ; end
 
 MahoganyGroupSprites:
 ; Route46, Route48, MahoganyTown
 	db SPRITE_GRAMPS
-	db SPRITE_YOUNGSTER
-	db SPRITE_LASS
-	db SPRITE_SUPER_NERD
+	db SPRITE_BOY
+	db SPRITE_GIRL
+	db SPRITE_PSYCHIC
 	db SPRITE_COOLTRAINER_M
 	db SPRITE_POKEFAN_M
 	db SPRITE_COOLTRAINER_F
@@ -246,12 +263,12 @@ LakeOfRageGroupSprites:
 ; Route47, LakeOfRage
 	db SPRITE_LANCE
 	db SPRITE_GRAMPS
-	db SPRITE_SUPER_NERD
+	db SPRITE_PSYCHIC
 	db SPRITE_COOLTRAINER_F
 	db SPRITE_FISHER
 	db SPRITE_COOLTRAINER_M
-	db SPRITE_LASS
-	db SPRITE_YOUNGSTER
+	db SPRITE_GIRL
+	db SPRITE_BOY
 	; 8 of max 9 walking sprites
 	db SPRITE_GYARADOS
 	db SPRITE_FRUIT_TREE
@@ -261,9 +278,9 @@ LakeOfRageGroupSprites:
 BlackthornGroupSprites:
 ; Route49, Route50, BlackthornCity
 	db SPRITE_GRAMPS
-	db SPRITE_YOUNGSTER
-	db SPRITE_LASS
-	db SPRITE_SUPER_NERD
+	db SPRITE_BOY
+	db SPRITE_GIRL
+	db SPRITE_PSYCHIC
 	db SPRITE_COOLTRAINER_M
 	db SPRITE_POKEFAN_M
 	db SPRITE_BLACK_BELT
@@ -280,15 +297,16 @@ SilverGroupSprites:
 
 DungeonsGroupSprites:
 ; NationalPark, NationalParkBugContest, RuinsOfAlphOutside
-	db SPRITE_LASS
+	db SPRITE_GIRL
 	db SPRITE_POKEFAN_F
 	db SPRITE_TEACHER_F
 	db SPRITE_LADY
-	db SPRITE_YOUNGSTER
+	db SPRITE_BOY
 	db SPRITE_POKEFAN_M
 	db SPRITE_ROCKER
 	db SPRITE_FISHER
 	db SPRITE_SCIENTIST
+	db SPRITE_LASS
 	; 8 of max 9 walking sprites
 	db SPRITE_GAMEBOY_KID
 	db SPRITE_GROWLITHE
@@ -300,9 +318,9 @@ FastShipGroupSprites:
 ; OlivinePort, VermilionPort, MountMoonSquare, TinTowerRoof
 	db SPRITE_SAILOR
 	db SPRITE_FISHING_GURU
-	db SPRITE_SUPER_NERD
+	db SPRITE_PSYCHIC
 	db SPRITE_COOLTRAINER_F
-	db SPRITE_YOUNGSTER
+	db SPRITE_BOY
 	db SPRITE_FAIRY
 	; 6 of max 9 walking sprites
 	db SPRITE_HO_OH

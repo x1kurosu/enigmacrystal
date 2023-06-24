@@ -1,4 +1,5 @@
 	object_const_def
+	const ROUTE43_SHELLDER
 
 Route43_MapScripts:
 	def_scene_scripts
@@ -15,3 +16,4 @@ Route43_MapEvents:
 	def_bg_events
 
 	def_object_events
+	object_event 23, 29, SPRITE_SHELLDER, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BLUE, 0, 0, 0, -1

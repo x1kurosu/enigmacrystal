@@ -170,3 +170,17 @@
 	tilecoll WALL, WARP_CARPET_DOWN, WALL, WALL ; a9
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; aa
 	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; ab
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; ac
+	tilecoll WALL, FLOOR, WALL, FLOOR ; ad
+	tilecoll WALL, WALL, WALL, WALL ; ae
+	tilecoll WALL, FLOOR, WALL, FLOOR ; af
+	tilecoll FLOOR, WALL, FLOOR, WALL ; b0
+	tilecoll FLOOR, WALL, FLOOR, WALL ; b1
+	tilecoll WALL, FLOOR, WALL, FLOOR ; b2
+	tilecoll FLOOR, WALL, FLOOR, WALL ; b3
+	tilecoll WALL, WALL, CAVE, WALL ; b4
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; b5
+	tilecoll WARP_CARPET_UP, WARP_CARPET_UP, FLOOR, FLOOR ; b6
+	tilecoll WALL, WALL, FLOOR, FLOOR ; b7
+	tilecoll WALL, WALL, FLOOR, WALL ; b8
+	tilecoll WALL, WALL, WALL, FLOOR ; b9

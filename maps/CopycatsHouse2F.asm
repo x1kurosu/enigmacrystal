@@ -67,7 +67,7 @@ Copycat:
 	applymovement COPYCATSHOUSE2F_COPYCAT2, CopycatSpinAroundMovementData
 .Default_Merge_3a:
 	faceplayer
-	variablesprite SPRITE_COPYCAT, SPRITE_LASS
+	variablesprite SPRITE_COPYCAT, SPRITE_GIRL
 	special LoadUsedSpritesGFX
 	opentext
 	writetext CopycatText_QuickMimicking
@@ -96,7 +96,7 @@ Copycat:
 	applymovement COPYCATSHOUSE2F_COPYCAT2, CopycatSpinAroundMovementData
 .Default_Merge_3b:
 	faceplayer
-	variablesprite SPRITE_COPYCAT, SPRITE_LASS
+	variablesprite SPRITE_COPYCAT, SPRITE_GIRL
 	special LoadUsedSpritesGFX
 	opentext
 	writetext CopycatText_Worried
@@ -161,7 +161,7 @@ Copycat:
 	applymovement COPYCATSHOUSE2F_COPYCAT2, CopycatSpinAroundMovementData
 .GotPass_Merge_3:
 	faceplayer
-	variablesprite SPRITE_COPYCAT, SPRITE_LASS
+	variablesprite SPRITE_COPYCAT, SPRITE_GIRL
 	special LoadUsedSpritesGFX
 	opentext
 	writetext CopycatText_ItsAScream

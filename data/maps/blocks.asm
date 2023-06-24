@@ -948,3 +948,60 @@ Route42_Blocks:
 	
 Route43_Blocks:
 	INCBIN "maps/Route43.ablk"
+	
+GoldenrodAptReception_Blocks:
+	INCBIN "maps/GoldenrodAptReception.ablk"
+	
+GoldenrodAptHall2F_Blocks:
+	INCBIN "maps/GoldenrodAptHall2F.ablk"
+	
+GoldenrodAptHall3F_Blocks:
+	INCBIN "maps/GoldenrodAptHall3F.ablk"
+	
+GoldenrodAptRooms2F_Blocks:
+	INCBIN "maps/GoldenrodAptRooms2F.ablk"
+	
+GoldenrodAptRooms3F_Blocks:
+	INCBIN "maps/GoldenrodAptRooms3F.ablk"
+	
+GoldenrodAptRoof_Blocks:
+	INCBIN "maps/GoldenrodAptRoof.ablk"
+	
+MooMooFarm_Blocks:
+	INCBIN "maps/MooMooFarm.ablk"
+	
+SpringCave1F_Blocks:
+	INCBIN "maps/SpringCave1F.ablk"
+	
+SpringCaveB1F_Blocks:
+	INCBIN "maps/SpringCaveB1F.ablk"
+	
+SpringCaveSnakeRoom_Blocks:
+	INCBIN "maps/SpringCaveSnakeRoom.ablk"
+	
+UnionCaveB4F_Blocks:
+	INCBIN "maps/UnionCaveB4F.ablk"
+	
+UnionCaveB4FPath_Blocks:
+	INCBIN "maps/UnionCaveB4FPath.ablk"
+	
+UnionCaveB5F_Blocks:
+	INCBIN "maps/UnionCaveB5F.ablk"
+	
+UnionCave1FTunnel_Blocks:
+	INCBIN "maps/UnionCave1FTunnel.ablk"
+	
+UnionCaveB1FTunnel_Blocks:
+	INCBIN "maps/UnionCaveB1FTunnel.ablk"
+	
+UnionCaveB2FTunnel_Blocks:
+	INCBIN "maps/UnionCaveB2FTunnel.ablk"
+	
+UnionCaveB2FSnakeRoom_Blocks:
+	INCBIN "maps/UnionCaveB2FSnakeRoom.ablk"
+	
+RuinsOfAlphResearchReception_Blocks:
+	INCBIN "maps/RuinsOfAlphResearchReception.ablk"
+	
+RuinsOfAlphResearchExperimental_Blocks:
+	INCBIN "maps/RuinsOfAlphResearchExperimental.ablk"

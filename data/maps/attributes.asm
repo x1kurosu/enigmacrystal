@@ -107,7 +107,7 @@ ENDM
 
 	map_attributes VioletCity, VIOLET_CITY, $05, SOUTH | WEST | EAST
 	connection south, Route32, ROUTE_32, 0
-	connection west, Route36, ROUTE_36, 4
+	connection west, Route36, ROUTE_36, 3
 	connection east, Route31, ROUTE_31, 13
 
 	map_attributes AzaleaTown, AZALEA_TOWN, $05, WEST | EAST
@@ -118,18 +118,21 @@ ENDM
 	connection east, Route41, ROUTE_41, 0
 
 	map_attributes GoldenrodCity, GOLDENROD_CITY, $35, NORTH | SOUTH | WEST
-	connection north, Route35, ROUTE_35, 5
-	connection south, Route34, ROUTE_34, 5
-	connection west, Route42, ROUTE_42, 0
+	connection north, Route35, ROUTE_35, 6
+	connection south, Route34, ROUTE_34, 6
+	connection west, Route42, ROUTE_42, -1
 
 	map_attributes OlivineCity, OLIVINE_CITY, $35, NORTH | WEST
-	connection north, Route39, ROUTE_39, 5
+	connection north, Route39, ROUTE_39, -1
 	connection west, Route40, ROUTE_40, 9
 
 	map_attributes EcruteakCity, ECRUTEAK_CITY, $05, SOUTH | WEST | EAST
-	connection south, Route37, ROUTE_37, 5
+	connection south, Route37, ROUTE_37, 4
 	connection west, Route38, ROUTE_38, 5
 	connection east, Route46, ROUTE_46, 9
+	
+	map_attributes MooMooFarm, MOOMOO_FARM, $02, SOUTH
+	connection south, Route39, ROUTE_39, 8
 
 	map_attributes MahoganyTown, MAHOGANY_TOWN, $71, NORTH | WEST | EAST
 	connection north, Route47, ROUTE_47, 0
@@ -178,28 +181,29 @@ ENDM
 	connection west, AzaleaTown, AZALEA_TOWN, 0
 
 	map_attributes Route34, ROUTE_34, $05, NORTH | EAST
-	connection north, GoldenrodCity, GOLDENROD_CITY, -5
+	connection north, GoldenrodCity, GOLDENROD_CITY, -6
 	connection east, AzaleaTown, AZALEA_TOWN, 18
 
 	map_attributes Route35, ROUTE_35, $05, NORTH | SOUTH
 	connection north, Route36, ROUTE_36, 0
-	connection south, GoldenrodCity, GOLDENROD_CITY, -5
+	connection south, GoldenrodCity, GOLDENROD_CITY, -6
 
 	map_attributes Route36, ROUTE_36, $05, NORTH | SOUTH | EAST
 	connection north, Route37, ROUTE_37, 10
 	connection south, Route35, ROUTE_35, 0
-	connection east, VioletCity, VIOLET_CITY, -4
+	connection east, VioletCity, VIOLET_CITY, -3
 
 	map_attributes Route37, ROUTE_37, $05, NORTH | SOUTH
-	connection north, EcruteakCity, ECRUTEAK_CITY, -5
+	connection north, EcruteakCity, ECRUTEAK_CITY, -4
 	connection south, Route36, ROUTE_36, -10
 
 	map_attributes Route38, ROUTE_38, $05, WEST | EAST
 	connection west, Route39, ROUTE_39, 0
 	connection east, EcruteakCity, ECRUTEAK_CITY, -5
 
-	map_attributes Route39, ROUTE_39, $05, SOUTH | EAST
-	connection south, OlivineCity, OLIVINE_CITY, -5
+	map_attributes Route39, ROUTE_39, $05, NORTH | SOUTH | EAST
+	connection north, MooMooFarm, MOOMOO_FARM, -8
+	connection south, OlivineCity, OLIVINE_CITY, 1
 	connection east, Route38, ROUTE_38, 0
 
 	map_attributes Route40, ROUTE_40, $35, SOUTH | EAST
@@ -208,13 +212,13 @@ ENDM
 
 	map_attributes Route41, ROUTE_41, $35, NORTH | SOUTH | WEST | EAST
 	connection north, Route40, ROUTE_40, 15
-	connection south, Route43, ROUTE_43, 7
+	connection south, Route43, ROUTE_43, 0
 	connection west, CianwoodCity, CIANWOOD_CITY, 0
-	connection east, Route42, ROUTE_42, 0
+	connection east, Route42, ROUTE_42, 3
 	
 	map_attributes Route42, ROUTE_42, $35, WEST | EAST
-	connection west, Route41, ROUTE_41, 0
-	connection east, GoldenrodCity, GOLDENROD_CITY, 0
+	connection west, Route41, ROUTE_41, -3
+	connection east, GoldenrodCity, GOLDENROD_CITY, 1
 	
 	map_attributes Route43, ROUTE_43, $35, NORTH
 	connection north, Route41, ROUTE_41, 0
@@ -414,6 +418,8 @@ ENDM
 	map_attributes RuinsOfAlphAerodactylChamber, RUINS_OF_ALPH_AERODACTYL_CHAMBER, $00, 0
 	map_attributes RuinsOfAlphInnerChamber, RUINS_OF_ALPH_INNER_CHAMBER, $00, 0
 	map_attributes RuinsOfAlphResearchCenter, RUINS_OF_ALPH_RESEARCH_CENTER, $00, 0
+	map_attributes RuinsOfAlphResearchReception, RUINS_OF_ALPH_RESEARCH_RECEPTION, $00, 0
+	map_attributes RuinsOfAlphResearchExperimental, RUINS_OF_ALPH_RESEARCH_EXPERIMENTAL, $00, 0	
 	map_attributes RuinsOfAlphHoOhItemRoom, RUINS_OF_ALPH_HO_OH_ITEM_ROOM, $00, 0
 	map_attributes RuinsOfAlphKabutoItemRoom, RUINS_OF_ALPH_KABUTO_ITEM_ROOM, $00, 0
 	map_attributes RuinsOfAlphOmanyteItemRoom, RUINS_OF_ALPH_OMANYTE_ITEM_ROOM, $00, 0
@@ -423,9 +429,16 @@ ENDM
 	map_attributes RuinsOfAlphOmanyteWordRoom, RUINS_OF_ALPH_OMANYTE_WORD_ROOM, $00, 0
 	map_attributes RuinsOfAlphAerodactylWordRoom, RUINS_OF_ALPH_AERODACTYL_WORD_ROOM, $00, 0
 	map_attributes UnionCave1F, UNION_CAVE_1F, $09, 0
+	map_attributes UnionCave1FTunnel, UNION_CAVE_1F_TUNNEL, $09, 0
 	map_attributes UnionCaveB1F, UNION_CAVE_B1F, $09, 0
+	map_attributes UnionCaveB1FTunnel, UNION_CAVE_B1F_TUNNEL, $09, 0
 	map_attributes UnionCaveB2F, UNION_CAVE_B2F, $09, 0
+	map_attributes UnionCaveB2FTunnel, UNION_CAVE_B2F_TUNNEL, $09, 0
+	map_attributes UnionCaveB2FSnakeRoom, UNION_CAVE_B2F_SNAKE_ROOM, $09, 0
 	map_attributes UnionCaveB3F, UNION_CAVE_B3F, $09, 0
+	map_attributes UnionCaveB4F, UNION_CAVE_B4F, $09, 0
+	map_attributes UnionCaveB4FPath, UNION_CAVE_B4F_PATH, $09, 0
+	map_attributes UnionCaveB5F, UNION_CAVE_B5F, $09, 0
 	map_attributes SlowpokeWellB1F, SLOWPOKE_WELL_B1F, $09, 0
 	map_attributes SlowpokeWellB2F, SLOWPOKE_WELL_B2F, $09, 0
 	map_attributes OlivineLighthouse1F, OLIVINE_LIGHTHOUSE_1F, $00, 0
@@ -481,6 +494,9 @@ ENDM
 	map_attributes Route38EcruteakGate, ROUTE_38_ECRUTEAK_GATE, $00, 0
 	map_attributes Route39Barn, ROUTE_39_BARN, $00, 0
 	map_attributes Route39Farmhouse, ROUTE_39_FARMHOUSE, $00, 0
+	map_attributes SpringCave1F, SPRING_CAVE_1F, $09, 0
+	map_attributes SpringCaveB1F, SPRING_CAVE_B1F, $09, 0
+	map_attributes SpringCaveSnakeRoom, SPRING_CAVE_SNAKE_ROOM, $09, 0
 	map_attributes MahoganyRedGyaradosSpeechHouse, MAHOGANY_RED_GYARADOS_SPEECH_HOUSE, $00, 0
 	map_attributes MahoganyGym, MAHOGANY_GYM, $00, 0
 	map_attributes MahoganyPokecenter1F, MAHOGANY_POKECENTER_1F, $00, 0
@@ -570,6 +586,12 @@ ENDM
 	map_attributes Route34IlexForestGate, ROUTE_34_ILEX_FOREST_GATE, $00, 0
 	map_attributes DayCare, DAY_CARE, $00, 0
 	map_attributes Route42GoldenrodGate, ROUTE_42_GOLDENROD_GATE, $00, 0
+	map_attributes GoldenrodAptReception, GOLDENROD_APT_RECEPTION, $00, 0
+	map_attributes GoldenrodAptHall2F, GOLDENROD_APT_HALL2F, $00, 0	
+	map_attributes GoldenrodAptHall3F, GOLDENROD_APT_HALL3F, $00, 0	
+	map_attributes GoldenrodAptRooms2F, GOLDENROD_APT_ROOMS2F, $00, 0	
+	map_attributes GoldenrodAptRooms3F, GOLDENROD_APT_ROOMS3F, $00, 0	
+	map_attributes GoldenrodAptRoof, GOLDENROD_APT_ROOF, $24, 0
 	map_attributes VermilionFishingSpeechHouse, VERMILION_FISHING_SPEECH_HOUSE, $00, 0
 	map_attributes VermilionPokecenter1F, VERMILION_POKECENTER_1F, $00, 0
 	map_attributes VermilionPokecenter2FBeta, VERMILION_POKECENTER_2F_BETA, $00, 0

@@ -299,6 +299,7 @@ ROMX $74
 	"Pokedex Entries 193-253"
 ROMX $75
 	"Sprites 3"
+	"Battle Weather Images"
 ROMX $76
 	"Tileset Data 12"
 ROMX $77

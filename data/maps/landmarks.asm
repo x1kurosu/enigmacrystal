@@ -34,6 +34,8 @@ Landmarks:
 	landmark  66,  42, BurnedTowerName
 	landmark  52,  44, Route38Name
 	landmark  36,  48, Route39Name
+	landmark  32,  44, SpringCaveName
+	landmark  36,  40, MooMooFarmName
 	landmark  36,  60, OlivineCityName
 	landmark  38,  62, LighthouseName
 	landmark  28,  56, BattleTowerName
@@ -117,6 +119,7 @@ AzaleaTownName:      db "AZALEA TOWN@"
 GoldenrodCityName:   db "GOLDENROD¯CITY@"
 EcruteakCityName:    db "ECRUTEAK¯CITY@"
 OlivineCityName:     db "OLIVINE¯CITY@"
+MooMooFarmName:      db "MOOMOO FARM@"
 CianwoodCityName:    db "CIANWOOD¯CITY@"
 MahoganyTownName:    db "MAHOGANY¯TOWN@"
 BlackthornCityName:  db "BLACKTHORN¯CITY@"
@@ -130,6 +133,7 @@ RadioTowerName:      db "RADIO TOWER@"
 PowerPlantName:      db "POWER PLANT@"
 NationalParkName:    db "NATIONAL¯PARK@"
 TinTowerName:        db "TIN TOWER@"
+SpringCaveName:      db "SPRING CAVE@"
 LighthouseName:      db "LIGHTHOUSE@"
 WhirlIslandsName:    db "WHIRL¯ISLANDS@"
 MtMortarName:        db "MT.MORTAR@"

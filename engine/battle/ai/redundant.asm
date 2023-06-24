@@ -44,6 +44,8 @@ AI_Redundant:
 	dbw EFFECT_MOONLIGHT,    .Moonlight
 	dbw EFFECT_SWAGGER,      .Swagger
 	dbw EFFECT_FUTURE_SIGHT, .FutureSight
+	dbw EFFECT_HAIL,         .Hail
+	dbw EFFECT_SWEET_SCENT,  .SweetScent
 	db -1
 
 .LightScreen:
@@ -103,8 +105,8 @@ AI_Redundant:
 .SleepTalk:
 	ld a, [wEnemyMonStatus]
 	and SLP_MASK
-	jr z, .Redundant
-	jr .NotRedundant
+	jp z, .Redundant
+	jp .NotRedundant
 
 .MeanLook:
 	ld a, [wEnemySubStatus5]
@@ -180,6 +182,18 @@ AI_Redundant:
 	ld a, [wEnemyScreens]
 	bit 5, a
 	ret
+	
+.Hail
+	ld a, [wBattleWeather]
+	cp WEATHER_HAIL
+	jr z, .Redundant
+	jr .NotRedundant
+	
+.SweetScent
+	ld a, [wBattleWeather]
+	cp WEATHER_SWEET_SCENT
+	jr z, .Redundant
+	jr .NotRedundant
 
 .Heal:
 .MorningSun:

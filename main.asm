@@ -445,6 +445,11 @@ INCLUDE "gfx/pokemon/unown_frame_pointers.asm"
 INCLUDE "gfx/pokemon/unown_frames.asm"
 
 
+SECTION "Battle Weather Images", ROMX
+
+INCLUDE "gfx/weather_images.asm"
+
+
 SECTION "bank38", ROMX
 
 INCLUDE "engine/events/print_unown_2.asm"

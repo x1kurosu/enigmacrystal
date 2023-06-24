@@ -18,6 +18,28 @@ PlayersHouse1FNoop1Scene:
 PlayersHouse1FNoop2Scene:
 	end
 
+MareepDememeScript:
+	givepoke GYARADOS, 50
+	givepoke FEAROW, 50
+	givepoke GOLDUCK, 50
+	givepoke GRAVELER, 50
+	givepoke BELLOSSOM, 40
+	setflag ENGINE_ZEPHYRBADGE
+	setflag ENGINE_HIVEBADGE
+	setflag ENGINE_PLAINBADGE
+	setflag ENGINE_FOGBADGE
+	verbosegiveitem HM_CUT
+	verbosegiveitem HM_FLASH
+	verbosegiveitem HM_SURF
+	verbosegiveitem TM_ROCK_SMASH
+	setevent EVENT_FLORIA_AT_FLOWER_SHOP
+	setevent EVENT_FLORIA_AT_SUDOWOODO
+	setevent EVENT_ROUTE_36_SUDOWOODO
+    setevent EVENT_BEAT_FALKNER
+	setevent EVENT_BEAT_BUGSY
+	setevent EVENT_BEAT_WHITNEY
+	setevent EVENT_BEAT_MORTY
+
 MeetMomLeftScript:
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 
@@ -387,7 +409,8 @@ PlayersHouse1F_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  6,  7, NEW_BARK_TOWN, 2
+;	warp_event  6,  7, NEW_BARK_TOWN, 2
+	warp_event  6,  7, ECRUTEAK_CITY, 1
 	warp_event  7,  7, NEW_BARK_TOWN, 2
 	warp_event  9,  0, PLAYERS_HOUSE_2F, 1
 
@@ -408,3 +431,4 @@ PlayersHouse1F_MapEvents:
 	object_event  4,  3, SPRITE_MOM, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, EVE, 0, OBJECTTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
 	object_event  0,  2, SPRITE_MOM, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, NITE, 0, OBJECTTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
 	object_event  4,  4, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, NeighborScript, EVENT_PLAYERS_HOUSE_1F_NEIGHBOR
+	object_event  2,  2, SPRITE_MAREEP, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, MareepDememeScript, -1

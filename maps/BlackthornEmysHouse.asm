@@ -31,4 +31,4 @@ BlackthornEmysHouse_MapEvents:
 	bg_event  1,  1, BGEVENT_READ, EmysHouseBookshelf
 
 	def_object_events
-	object_event  2,  3, SPRITE_LASS, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Emy, -1
+	object_event  2,  3, SPRITE_GIRL, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Emy, -1
