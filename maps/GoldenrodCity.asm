@@ -256,16 +256,22 @@ GoldenrodCityNameRaterSign:
 	jumptext GoldenrodCityNameRaterSignText
 
 GoldenrodCityUndergroundSignNorth:
-	jumptext GoldenrodCityUndergroundSignNorthText
+	jumptext GoldenrodCityUndergroundSignText
 
 GoldenrodCityUndergroundSignSouth:
-	jumptext GoldenrodCityUndergroundSignSouthText
+	jumptext GoldenrodCityUndergroundSignText
+	
+GoldenrodCityUndergroundSignEast:
+	jumptext GoldenrodCityUndergroundSignText
 
 GoldenrodCityPokecenterSign:
 	jumpstd PokecenterSignScript
 
 GoldenrodCityFlowerShopSign:
 	jumptext GoldenrodCityFlowerShopSignText
+	
+GoldenrodCityAptSign:
+	jumptext GoldenrodCityAptSignText
 
 GoldenrodCityMoveTutorEnterGameCornerMovement:
 	step RIGHT
@@ -466,12 +472,7 @@ GoldenrodCityNameRaterSignText:
 	line "Nicknames Rated"
 	done
 
-GoldenrodCityUndergroundSignNorthText:
-	text "UNDERGROUND"
-	line "ENTRANCE"
-	done
-
-GoldenrodCityUndergroundSignSouthText:
+GoldenrodCityUndergroundSignText:
 	text "UNDERGROUND"
 	line "ENTRANCE"
 	done
@@ -484,6 +485,14 @@ GoldenrodCityPokeComCenterSignText: ; unreferenced
 GoldenrodCityFlowerShopSignText:
 	text "Blooming Beautiful"
 	line "FLOWER SHOP"
+	done
+	
+GoldenrodCityAptSignText:
+	text "Live near all the"
+	line "entertainment!"
+	
+	para "GOLDENROD"
+	line "APARTMENTS"
 	done
 
 GoldenrodCityMoveTutorAskTeachAMoveText:
@@ -556,7 +565,7 @@ GoldenrodCity_MapEvents:
 	warp_event 37, 31, GOLDENROD_BIKE_SHOP, 1
 	warp_event 39, 23, GOLDENROD_HAPPINESS_RATER, 1
 	warp_event  7, 27, BILLS_FAMILYS_HOUSE, 1
-	warp_event 13, 15, GOLDENROD_MAGNET_TRAIN_STATION, 2
+	warp_event 14, 15, GOLDENROD_MAGNET_TRAIN_STATION, 2
 	warp_event 33,  7, GOLDENROD_FLOWER_SHOP, 1
 	warp_event 41, 11, GOLDENROD_PP_SPEECH_HOUSE, 1
 	warp_event 17,  9, GOLDENROD_NAME_RATER, 1
@@ -570,29 +579,32 @@ GoldenrodCity_MapEvents:
 	warp_event  2, 18, ROUTE_42_GOLDENROD_GATE, 3
 	warp_event  2, 19, ROUTE_42_GOLDENROD_GATE, 4
 	warp_event 28, 17, GOLDENROD_APT_RECEPTION, 1
+	warp_event  2,  2, GOLDENROD_UNDERGROUND_SWITCH_ROOM_ENTRANCES, 11
 
 	def_coord_events
 
 	def_bg_events
-	bg_event 14, 16, BGEVENT_READ, GoldenrodCityStationSign
+	bg_event 12, 16, BGEVENT_READ, GoldenrodCityStationSign
 	bg_event  6, 19, BGEVENT_READ, GoldenrodCityRadioTowerSign
 	bg_event 28, 29, BGEVENT_READ, GoldenrodDeptStoreSign
-	bg_event 28, 11, BGEVENT_READ, GoldenrodGymSign
+	bg_event 30,  9, BGEVENT_READ, GoldenrodGymSign
 	bg_event 24, 20, BGEVENT_READ, GoldenrodCitySign
 	bg_event 36, 32, BGEVENT_READ, GoldenrodCityBikeShopSign
 	bg_event 18, 24, BGEVENT_READ, GoldenrodCityGameCornerSign
 	bg_event 14,  9, BGEVENT_READ, GoldenrodCityNameRaterSign
 	bg_event 10,  8, BGEVENT_READ, GoldenrodCityUndergroundSignNorth
 	bg_event 14, 32, BGEVENT_READ, GoldenrodCityUndergroundSignSouth
+	bg_event 40, 18, BGEVENT_READ, GoldenrodCityUndergroundSignEast
 	bg_event 19, 29, BGEVENT_UP, GoldenrodCityPokecenterSign
 	bg_event 34,  8, BGEVENT_READ, GoldenrodCityFlowerShopSign
+	bg_event 32, 17, BGEVENT_READ, GoldenrodCityAptSign
 
 	def_object_events
 	object_event 11, 20, SPRITE_POKEFAN_M, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, GoldenrodCityPokefanMScript, EVENT_GOLDENROD_CITY_CIVILIANS
-	object_event 30, 19, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, GoldenrodCityYoungster1Script, EVENT_GOLDENROD_CITY_CIVILIANS
+	object_event 28, 21, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, GoldenrodCityYoungster1Script, EVENT_GOLDENROD_CITY_CIVILIANS
 	object_event 15, 17, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, GoldenrodCityCooltrainerF1Script, EVENT_GOLDENROD_CITY_CIVILIANS
 	object_event 28, 32, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, GoldenrodCityCooltrainerF2Script, EVENT_GOLDENROD_CITY_CIVILIANS
-	object_event 21, 17, SPRITE_BOY, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GoldenrodCityYoungster2Script, EVENT_GOLDENROD_CITY_CIVILIANS
+	object_event 21, 17, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, GoldenrodCityYoungster2Script, EVENT_GOLDENROD_CITY_CIVILIANS
 	object_event 12, 11, SPRITE_LASS, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 2, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, GoldenrodCityLassScript, EVENT_GOLDENROD_CITY_CIVILIANS
 	object_event 13, 29, SPRITE_GRAMPS, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, GoldenrodCityGrampsScript, EVENT_GOLDENROD_CITY_CIVILIANS
 	object_event  8, 21, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, GoldenrodCityRocketScoutScript, EVENT_GOLDENROD_CITY_ROCKET_SCOUT
